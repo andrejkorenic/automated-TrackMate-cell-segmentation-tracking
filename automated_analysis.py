@@ -6,10 +6,9 @@
 #			   University of Belgrade, Faculty of Biology, Serbia
 # Created on: 2025-02-27
 # Version: 1.0.0
-# License: The Intellectual Property Office of the Republic of Serbia (No. A-0517/2014 9593)
-# Dependencies: [coming soon...]
+# License: GPL-3.0 & The Intellectual Property Office of the Republic of Serbia (No. A-0517/2014 9593)
+# Dependencies: ImageJ/Fiji 1.54g, TrackMate 7.14.0, 3D ImageJ Suite, IJPB-plugins (MorphoLibJ), StarDist, TrackMate-StarDist
 # Usage: use the Fiji editor's `Macros > Edit... > Run` command
-# Revision History: N/A
 # Contact: andrej.korenic@bio.bg.ac.rs
 
 # Copyright (C) 2025 Korenić Andrej

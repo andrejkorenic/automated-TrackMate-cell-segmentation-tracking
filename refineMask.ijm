@@ -1,5 +1,5 @@
 /*
-	# File: ../setup.ijm
+	# File: ../refineMask.ijm
 	# Description: Fiji macro setup file designed to assist users in configuring and calibrating essential parameters effectively. 
 	# Author: Korenić Andrej, Ph.D, Research Associate
 	# Affiliation: Department for General Physiology and Biophysics,
@@ -7,13 +7,9 @@
 				   University of Belgrade, Faculty of Biology, Serbia
 	# Created on: 2025-02-12
 	# Version: 1.0.0
-	# License: The Intellectual Property Office of the Republic of Serbia (No. A-0517/2014 9593)
-	# Dependencies: [coming soon...]
-	# Usage: use the Fiji editor's `Macros > Run Macro` command (or press Ctrl-R)
-	# Revision History: N/A
+	# License: GPL-3.0 & The Intellectual Property Office of the Republic of Serbia (No. A-0517/2014 9593)
+	# Dependencies: ImageJ/Fiji 1.54g, TrackMate 7.14.0, 3D ImageJ Suite, IJPB-plugins (MorphoLibJ), StarDist, TrackMate-StarDist
 	# Contact: andrej.korenic@bio.bg.ac.rs
-	# Note:	- It is advisable to review the documentation and complete the tutorial initially to gain a better understanding of its functionality.
-			- debug("break"); // calls the macro debugger when running via `Plugins > Macros > Interactive Interpreter`
 
 	# Copyright (C) 2025 Korenić Andrej
 */
