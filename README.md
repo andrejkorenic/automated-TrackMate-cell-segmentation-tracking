@@ -45,15 +45,17 @@ For instructions on setting up your environment, understanding the collection's 
 
 1. **Download & Extract:** Download the entire repository from GitHub and extract the contents to a convenient directory on your Windows, Linux, or macOS system.
 2. **Install ImageJ & Plugins:** These scripts rely on ImageJ/Fiji and several plugins.
-    * Ensure you have a stable version of  [ImageJ2](https://imagej.net/software/imagej2) (including [Fiji](https://imagej.net/software/fiji)) installed. These scripts were tested and compatible with Fiji 1.54p, Java 1.8.0_322 (64-bit).
+    * Ensure you have a stable version of  [ImageJ2](https://imagej.net/software/imagej2) (including [Fiji](https://imagej.net/software/fiji)) installed. These scripts were tested and compatible with [Fiji 1.54p stable 20250808-2217](https://downloads.imagej.net/fiji/archive/stable/20250808-2217/), Java 1.8.0_452 (64-bit).
     * TrackMate v7 can be found at `Plugins → Tracking → TrackMate` since TrackMate resides in the `/jars` subfolder of the `Fiji.app` folder (i.e., `TrackMate-7.14.0.jar`)
     * Select `Help → Update...` from the menu to start the [updater](https://imagej.net/plugins/updater).
-    * *(Optional)*: Click `Manage update sites` to [add](https://imagej.net/update-sites/following#add-update-sites) the following update site (if not already present):
-        * CSBDeep 0.6.0
+    * Click `Manage update sites` to [add](https://imagej.net/update-sites/following#add-update-sites) the following update site (if not already present):
+        * TensorFlow 1.12.0 ([link](https://sites.imagej.net/tensorflow/))
         * StarDist 0.3.0
         * TrackMate-StarDist 1.2.0
-        * 3D ImageJ Suite (3D Manager 4.1.7b)
-        * IJPB-plugins ([MorphoLibJ](https://imagej.net/plugins/morpholibj) library 1.6.4)
+        * CSBDeep 0.6.0 *(Probably optional)*
+        * clij 1.8.1.1, clij2 2.5.3.5 *(Optional)*
+        * 3D ImageJ Suite (3D Manager 4.1.7b) *(Optional)*
+        * IJPB-plugins ([MorphoLibJ](https://imagej.net/plugins/morpholibj) library 1.6.4) *(Optional)*
     * Click `Apply changes` and restart ImageJ.
 
 <br/>
@@ -118,7 +120,7 @@ By including this information, you'll help us understand and address the issue m
 ## 🚩 Known Issues and Future Improvements
 
 **Current Issues:**
-- [ ] Users may encounter issues with TrackMate regarding saving and loading `xml` files containing analysis settings, especially with StarDist detector. This can lead to problems during automated analysis. We are actively working on resolving these issues and will provide updates as they become available.
+- [x] ~~Users may encounter issues with TrackMate regarding saving and loading `xml` files containing analysis settings, especially with StarDist detector. This can lead to problems during automated analysis. We are actively working on resolving these issues and will provide updates as they become available.~~
 
 **Future Improvements:**
 - [ ] Implement automatic segmentation using one channel and tracking using a different channel.
